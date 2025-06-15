@@ -5,4 +5,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-CMD ["node", "scripts/fetch-aqi.js"]
+CMD ["node", "index.js"]
